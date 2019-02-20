@@ -151,6 +151,7 @@ def user_stats(df, city):
 
 
 def main():
+    # limited 5 displayed rows
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
