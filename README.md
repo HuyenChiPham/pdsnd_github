@@ -5,7 +5,7 @@
 Bikeshare
 
 ### Description
-Using Python to analyze data
+Using Python to analyze provided Bikeshare data
 
 ### Files used
 washington.csv
