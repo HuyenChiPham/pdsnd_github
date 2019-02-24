@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-import os
+# delete import os
 from collections import Counter
 
 
@@ -111,8 +111,8 @@ def trip_duration_stats(df):
 
     # TO DO: display total travel time
     df['travel_time'] = df['End Time'] - df['Start Time'] 
-    total_travel_time = df['travel_time'].sum()
-    print('The total travel time is: ',total_travel_time)
+    #total_travel_time = df['travel_time'].sum()
+    print('The total travel time is: ',df['travel_time'].sum())
     
     # TO DO: display mean travel time
     mean_travel_time = df['travel_time'].mean()
